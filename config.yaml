@@ -1,0 +1,21 @@
+image_size: 128
+num_classes: 4
+batch_size: 32
+epochs: 10
+learning_rate: 0.001
+seed: 42
+
+augmentation:
+  enabled: true
+
+paths:
+  raw_data: "data/raw/Brain-Tumor-MRI-Dataset"
+  processed_data: "data/processed"
+  models_dir: "models"
+  results_dir: "results"
+
+class_names:
+  - "notumor"
+  - "glioma"
+  - "meningioma"
+  - "pituitary"
