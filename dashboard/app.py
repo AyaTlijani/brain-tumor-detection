@@ -168,13 +168,13 @@ st.sidebar.info(
     """
 )
 # ======================================================
-# 🧬 SECOND PAGE: BREAST CANCER MODEL (SAFE ADDITION)
+# SECOND PAGE: BREAST CANCER MODEL
 # ======================================================
 
 from torchvision import models, transforms
 
 # -------------------------
-# PAGE SELECTOR (keep yours, just extend it safely)
+# PAGE SELECTOR
 # -------------------------
 page = st.sidebar.radio("Select Page", ["Brain MRI", "Breast Cancer"])
 
